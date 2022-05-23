@@ -5,7 +5,7 @@ permalink: /nl/
 
 # Hey, ik ben Stef
 
-Ik ben een student industrieel ingenieur elektronica-ICT aan Universiteit Gent en ontwikkelaar.
+Ik was een student industrieel ingenieur elektronica-ICT aan Universiteit Gent, tegenwoordig werk ik er als University Engineer.
 Ik ken teveel talen, maar werk momenteel veel met PHP, Laravel en MySQL en wat lichte Vue.js.
 Wanneer ik iets maak voor op het web, moet het licht en snel zijn.
 
