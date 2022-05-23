@@ -2,7 +2,7 @@
 
 [Nederlandstalige versie](/nl)
 
-I'm an industrial engineering student (field of electronics-ICT) at Ghent University and developer.
+I was an industrial engineering student (field of electronics-ICT) at Ghent University, now I've joined the ranks and work as a University Engineer.
 I know more languages than are appropriate to list, but currently have a job in PHP with Laravel and MySQL and some light Vue.js.
 When I make a website or any web-thing, I want it to be lightweight and load quickly.
 
