@@ -11,7 +11,7 @@ A future post will contain more information on the actual implementing.
 ## TL;DR: The Release Notes
 
 Starting with Belux v1.1.4, the alerts on gate change have received thee states: `blink`, `quiet` or `none`.
-Older versions behave like the `blink` setting, which is also the default when no config options are provided. This version is downloadable <a href="/assets/artifacts/Belux_1_1_4.dll" download="Belux.dll">here</a>.
+Older versions behave like the `blink` setting, which is also the default when no config options are provided. This version is downloadable <a href="/assets/artifacts/Belux_1_1_5.dll" download="Belux.dll">here</a>.
 
 `quiet` still gives gate change messages, but does not mark them as urgent, meaning they do not get the blinking blue background.
 They will be marked as unread (meaning blue header text) untill you read them, unless you are marked as busy.
