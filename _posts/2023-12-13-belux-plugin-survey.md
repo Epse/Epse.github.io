@@ -7,6 +7,8 @@ tags: vatsim euroscope cpp
 Belux vACC has seen quite some changes in its plugins this last year and I wondered what the vATCOs thought of this.
 I made a very short survey, published it to our ATCOs and analysed the results.
 
+This post was edited on 2023-12-30 to reflect feedback.
+
 First and foremost, let's set some ground truths about responses.
 We pinned the link and pinged everyone in discord, but not all our members are always this active in discord.
 Our roster counts around 30 vACTCOs and I got 16 responses on the survey.
@@ -93,18 +95,21 @@ The VATCAN plugin already exists to check pre-registered slots.
 If you are asking about assinging CTOTs when times are busy and the going gets tough,
 then I still don't know what to tell you.
 This is a complicated feature, that would likely best be a separate plugin and someone with a better understanding of delays and flows to help implement.
+vACDM and vCDM are existing solutions to this problem,
+but they require nearly full vACC buy-in and nav department cooperation for rollout and proper functioning.
 
 Several solutions were proposed for the ground tag clutter issue.
 One is only showing tags for aircraft on your frequency.
 Sadly, this is not possible. Tracking what frequency a pilot is listening to can only be done manually through the `.inf` command.
 Perhaps an (optional) filter based on assumed / free state could be implemented if desired.
+As of 2023-12-26, a filter based on assumed state has been implemented [in beta](https://github.com/Epse/vSMR-belux/releases/tag/v1.8.0-beta1).
 
 Making the aircraft symbols on the ground move smoother is similarly impossible,
 this time because Euroscope does not support VATSIM Velocity.
 
 Several requests were made about things to add to the ground TAGs.
-Adding a click action to open the flight plan window should be possible,
-if I can find a spot that does not yet have a different click action.
+Adding a click action to open the flight plan window ~~should be possible,
+if I can find a spot that does not yet have a different click action.~~ already exists.
 Changing the gate from the tag is unfortunately not an option due to technical limitations,
 as is changing the STS field from the tag. There also is simply no space left for the STS field.
 If I can wrap my head around the graphics for it, making the tags non-rectangular as IRL is possible.
