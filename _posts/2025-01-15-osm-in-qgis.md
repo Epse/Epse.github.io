@@ -48,3 +48,7 @@ The obvious case is that your query returned too much data, but you could probab
 What is less obvious, is that `SELECT *` will destroy you.
 Why this is, is between QGis and God I'm afraid.
 Instead, specify all the columns you want yourselves, and specify as few as possible to speed up the situation.
+
+## Phew
+
+We're done here, finally. Did you have a good time?
